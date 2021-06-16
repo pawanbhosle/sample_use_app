@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="user-scalable=0, width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>About - classic yoga center</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/mobile.css">
+	<script type='text/javascript' src='js/mobile.js'></script>
+</head>
+<body>
+	<div id="header">
+		<h1><a href="index.html"> <span>classic<br>Rehabilitation Yoga</span></a></h1>
+		<ul id="navigation">
+			<li>
+				<a href="index.html">Home</a>
+			</li>
+			<li class="current">
+				<a href="about.html">About</a>
+			</li>
+			
+			<li>
+				<a href="contact.html">Contact</a>
+			</li>
+			<li>
+				<a href="blog.html">Blog</a>
+			</li>
+		</ul>
+	</div>
+	<div id="bo">
+	<font color="green" size=700 >
+		<h2>About</h2>
+		</font>
+		<div class="content">
+			<details>	
+			 <!-- <font color="green" size=10 > -->
+					<summary> <font color="green" size=10 >I myself have experienced yoga's healing power in a very real way. </font></summary>
+			  <!-- </font> -->
+			<font color="green" size=5>
+				<p> Weeks before a trip to India in 2002 to investigate yoga therapy, I developed numbness and tingling in my right hand. After first considering scary things like a brain tumor and multiple sclerosis, I figured out that the cause of the symptoms was thoracic outlet syndrome, a nerve blockage in my neck and chest.Despite the uncomfortable symptoms, I realized how useful my condition could be during my trip. While visiting various yoga therapy centers, I would submit myself for evaluation and treatment by the various experts I'd arranged to observe. I could try their suggestions and see what worked for me. While this wasn't exactly a controlled scientific experiment, I knew that such hands-on learning could teach me things I might not otherwise understand.
+"...for more than a year, I've been free of symptoms."
+My experiment proved illuminating. At the Vivekananda ashram just outside of Bangalore, S. Nagarathna, M.D., recommended breathing exercises in which I imagined bringing prana (vital energy) into my right upper chest. Other therapy included asana, Pranayama, meditation, chanting, lectures on philosophy, and various kriya (internal cleansing practices). At the Krishnamacharya Yoga Mandiram in Chennai and from A.G. Mohan and his wife, Indra, who practice just outside of Chennai, I was told to stop practicing Headstand and Shoulderstand in favor of gentle asana coordinated with the breath. In Pune, S.V. Karandikar, a medical doctor, recommended practices with ropes and belts to put traction on my spine and exercises that taught me to use my shoulder blades to open my upper back.
+Thanks to the techniques I learned in India, advice from teachers in the United States, and my own exploration, my chest is more flexible than it was, my posture has improved, and for more than a year, I've been free of symptoms.
+				</p>
+			</details>
+			 </font>
+				<font color="orange" size=700 >
+				<h3 align="center"><a href="contact.html">Be Part of Our Community</a></h3>
+				</font>	
+			</div>			
+		</div>
+			<!-- Slideshow container -->
+<div class="slideshow-container">
+
+	<!-- Full-width images with number and caption text -->
+	<div class="mySlides fade">
+	  <img src="images/yoga-concentrating.jpg"style="width:100%">
+	  <div class="text">Lady doing yoga</div>
+	</div>
+  
+	<div class="mySlides fade">
+	  
+	  <img src="images/po.jpg"style="width:100%">
+	  <div class="text">happiness statue</div>
+	</div>
+  
+	<div class="mySlides fade">
+	 
+	  <img src="images/lying-yoga.jpg"style="width:100%">
+	  <div class="text">laying yoga</div>
+	</div>
+  
+	<!-- Next and previous buttons -->
+	<a class="prev"onclick="plusSlides(-1)">&#10094;</a>
+	<a class="next"onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+	<span class="dot"onclick="currentSlide(1)"></span> 
+	<span class="dot"onclick="currentSlide(2)"></span> 
+	<span class="dot"onclick="currentSlide(3)"></span> 
+  </div>
+	<script>
+		var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none"; 
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1} 
+  slides[slideIndex-1].style.display = "block"; 
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
+}
+
+	</script>  
+
+	<div id="footer">
+	
+</body>
+</html>
